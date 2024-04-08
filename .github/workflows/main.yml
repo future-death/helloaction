@@ -7,4 +7,4 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: ./helloaction
+        uses: actions/hello-world-docker-action@v2
