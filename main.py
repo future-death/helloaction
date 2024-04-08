@@ -51,7 +51,7 @@ PASSWORD = os.environ.get("PASSWORD", "FQCfqc5001017892")  # 密码
 # 'requestId': '7690c065-70e0-4757-839b-5fd8381e65c7'
 # }
 TRUECAPTCHA_USERID = os.environ.get("TRUECAPTCHA_USERID", "cellsdance")
-TRUECAPTCHA_APIKEY = os.environ.get("TRUECAPTCHA_APIKEY", "rNirT7v5rMhBdd6xFLrh")
+TRUECAPTCHA_APIKEY = os.environ.get("TRUECAPTCHA_APIKEY", "W038VsYFO8CmIl5etris")
 
 # Extract key data from your emails, automatically. https://mailparser.io 
 # 30 Emails/Month, 10 inboxes and unlimited downloads for free.
