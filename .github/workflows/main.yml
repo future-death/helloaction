@@ -1,6 +1,6 @@
 on: 
   schedule:
-    - cron: "0 5 12 * *"
+    - cron: "0 5 27 * *"
 
 jobs:
   hello_world_job:
@@ -9,4 +9,4 @@ jobs:
     steps:
       - name: Helloaction
         id: helloaction
-        uses: future-death/helloaction@main
+        uses: future-death/helloaction@s2
