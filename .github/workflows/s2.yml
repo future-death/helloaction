@@ -1,0 +1,12 @@
+on: 
+  schedule:
+    - cron: "0 5 27 * *"
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-latest
+    name: A job to extend
+    steps:
+      - name: Helloaction
+        id: helloaction
+        uses: future-death/helloaction@s2
