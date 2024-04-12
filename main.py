@@ -1,5 +1,5 @@
 #! /usr/bin/env python3
-1
+
 #
 # SPDX-FileCopyrightText: (c) 2020-2021 CokeMine & Its repository contributors
 # SPDX-FileCopyrightText: (c) 2021 A beam of light
@@ -37,8 +37,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # 多个账户请使用空格隔开
-USERNAME = os.environ.get("USERNAME", "cellsdance@gmail.com")  # 用户名或邮箱
-PASSWORD = os.environ.get("PASSWORD", "FQCfqc5001017892")  # 密码
+USERNAME = os.environ.get("USERNAME", "firchiqiao@gmail.com")  # 用户名或邮箱
+PASSWORD = os.environ.get("PASSWORD", "fqc5001017892")  # 密码
 
 # default value is TrueCaptcha demo credential,
 # you can use your own credential via set environment variables:
