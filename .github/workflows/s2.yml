@@ -1,6 +1,6 @@
 on: [push]
   #schedule:
-  #  - cron: "0 5 27 * *"
+ #  - cron: "0 5 27 * *"
 
 jobs:
   hello_world_job:
