@@ -74,7 +74,7 @@ YD_APP_PWD = os.environ.get("YD_APP_PWD", "")  # yandex mail 使用第三方 APP
 PROXIES = {"http": "http://127.0.0.1:10808", "https": "http://127.0.0.1:10808"}
 
 # Maximum number of login retry
-LOGIN_MAX_RETRY_COUNT = 1
+LOGIN_MAX_RETRY_COUNT = 2
 
 # Waiting time of receiving PIN, units are seconds.
 WAITING_TIME_OF_PIN = 15
